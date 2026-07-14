@@ -9,3 +9,5 @@ parcel lookup when the live county file is unavailable or truncated.
 - BillURL derived: https://common3.mptsweb.com/MBC/sanjoaquin/tax/main/{assessment}/2025/0000
 
 Public county record data. Refreshed opportunistically.
+
+- `sjc_parcels_2026.csv.gz` — 263,303 rows, captured 2026-07-13 (post 2026-27 update). Columns: `assessment,parcel_dashes,address,city_state_zip,bill_url` (bill_url is authoritative, carries the current tax year).
